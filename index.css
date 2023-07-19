@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    background-color: #0d2b53;
+}
+
+input {
+    background-color: #6943FF;
+    text-align: center;
+    width: 10vmin;
+    padding: 5px;
+    border: 2px solid gray;
+    color: white;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Inter';
+    margin-top: 0px;
+}
+
+h3 {
+    color: white;
+    margin-top: 0px;
+    background-color: #273549;
+    background-size: contain;
+    padding: 10px;
+}
+
+p {
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: normal;
+    color: gray;
+}
+
+.overall {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    background-color: #6943FF;
+    width: 34.375rem;
+    text-align: center;
+    margin-top: 9%;
+}
+
+.container {
+    background-color: #1F2937;
+    width: 34.375rem;
+    text-align: center;
+
+}
+
+.meter {
+    padding: 10px 15px;
+}
+
+#btn {
+    padding: 15px 10px;
+}
+
+#convert-btn {
+    margin-top: 10px;
+    border: 1px solid #6943FF;
+    border-radius: 5px;
+    padding: 9px 27.5px;
+}
