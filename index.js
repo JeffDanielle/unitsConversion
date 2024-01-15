@@ -33,7 +33,7 @@ function volumeConversion(len){
 }
 
 function massConversion(len){
-    let litersToGallon = `${inputText.value} liters = ${(len.value * 2.2046).toFixed(3)} gallons`
-    let gallonToLiters = `${inputText.value} gallons = ${(len.value * 0.4536).toFixed(3)} liters`
+    let litersToGallon = `${inputText.value} kilograms = ${(len.value * 2.2046).toFixed(3)} pounds`
+    let gallonToLiters = `${inputText.value} pounds = ${(len.value * 0.4536).toFixed(3)} kilograms`
     kilText.textContent = ` ${litersToGallon} | ${gallonToLiters}`
 }
